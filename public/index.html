@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" href="/public/styles.css" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>PonderMap</title>
+	</head>
+	<body>
+		<main
+			tag="document"
+			class="rounded bg-red-500 text-2xl text-gray-200 rounded text-center font-bold"
+		>
+			<p class="p-1.5">The Pondermap Example</p>
+
+			<main class="flex flex-row">
+				<section
+					tag="collections"
+					class="text-lg bg-red-500 text-red-300 rounded text-center m-1 p-0.5"
+				>
+					<p class="py-1 px-1">Base Notes</p>
+					<article
+						tag="collection"
+						class="text-sm text-red-600 bg-red-400 m-1 normal-case rounded"
+					>
+						Earthy
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-grey-100 hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Frakinsense
+						</div>
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-white hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Cedar
+						</div>
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-white hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Sandlewood
+						</div>
+					</article>
+					<article
+						tag="collection"
+						class="text-sm text-red-600 bg-red-400 m-1 normal-case rounded"
+					>
+						Reviatizing
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-grey-100 hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Mint
+						</div>
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-white hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Orange
+						</div>
+						<div
+							tag="card"
+							class="text-gray-100 font-light hover:text-white hover:bg-red-500 hover:underline cursor-pointer"
+						>
+							Lavender
+						</div>
+					</article>
+				</section>
+			</main>
+			<div tag="ponderMapFooter" class="p-1 flex flex-row justify-between">
+				<div class="px-4 text-sm text-gray-100">notes</div>
+				<section tag="toolbox" class="flex flex-row p-1.5">
+					<div
+						class="rounded bg-blue-500 p-1 text-xs text-gray-100 hover:bg-blue-400 cursor-pointer"
+					>
+						Edit
+					</div>
+				</section>
+			</div>
+		</main>
+	</body>
+</html>
